@@ -17,17 +17,20 @@ The goal of the UF Alarm Clock project is to create an alarm clock that not only
 
 ## Table of Contents
 
-- [UF Alarm Clock](#uf-alarm-clock)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [Resources](#resources)
-- [Maintainers](#maintainers)
+-   [UF Alarm Clock](#uf-alarm-clock)
+-   [Table of Contents](#table-of-contents)
+-   [Installation](#installation)
+-   [Contributing](#contributing)
+-   [Resources](#resources)
+-   [Maintainers](#maintainers)
 
 ## 📥 Installation
 
-This project requires [NodeJS](https://nodejs.org/en/) and [Git](https://git-scm.com). Also, the [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US&gl=US) app is required on a mobile device. Make sure you have `build-essential` (Linux) or `xcode-select` (MacOS).
+This project requires [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com), and [Golang](https://go.dev/). Also, the [Expo Go](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_US&gl=US) app is required on a mobile device. Make sure you have `build-essential` (Linux) or `xcode-select` (MacOS).
 
+### Client
+
+1. Clone the repository:
 ```
 sudo apt install build-essential
 // or...
@@ -40,20 +43,20 @@ If you **do not** intend on making any changes, clone the original repository:
 git clone https://github.com/ufosc/Alarm-Clock.git
 ```
 
-If you **do** intend on making changes, fork the project then copy the code from your personal repository:: 
+If you **do** intend on making changes, fork the project then copy the code from your personal repository::
 
 ```
 git clone https://github.com/YOUR-USERNAME/Alarm-Clock.git
 ```
 
-
-Navigate to the project directory and install the project dependencies:
+2. Navigate to the project client directory and install the project dependencies:
 
 ```
 cd  Alarm-Clock/client
 npm install
 ```
 
+3. Run the application:
 If your phone is on the same network as your computer run:
 
 ```
@@ -67,6 +70,22 @@ npm run tunnel
 ```
 
 Then scan the QR code that appears on the expo go app.
+
+## FAQ
+
+### 1. How do I install the project dependencies?
+
+Run the following command to install all required dependencies:
+```
+npm install
+```
+
+### What should I do if I encounter an error during installation?
+
+Ensure you have the correct Node.js version installed. You can check your version with:
+```
+node -v
+```
 
 ## 🤝 Contributing
 
@@ -90,11 +109,11 @@ To contribute to this repository, please follow the following steps:
 
 For more help use the following links:
 
-- [Fork and Clone repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-- [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
-- [Comitting to Repository](https://www.atlassian.com/git/tutorials/saving-changes/git-commit#:~:text=Commits%20can%20be%20thought%20of,committed%20to%20the%20local%20repository.)
-- [Pushing to Repository](https://github.com/git-guides/git-push)
-- [Opening Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+-   [Fork and Clone repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+-   [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+-   [Comitting to Repository](https://www.atlassian.com/git/tutorials/saving-changes/git-commit#:~:text=Commits%20can%20be%20thought%20of,committed%20to%20the%20local%20repository.)
+-   [Pushing to Repository](https://github.com/git-guides/git-push)
+-   [Opening Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ## 🧑‍💼 Maintainers
 
@@ -102,5 +121,5 @@ Maintained by the UF Open Source Club, can be contacted via [Discord](https://di
 
 Current Maintainers:
 
-- Kaniel Vicencio @kanielv
-- Max Meiler @MaximilianMeiler
+-   Kaniel Vicencio @kanielv
+-   Max Meiler @MaximilianMeiler
