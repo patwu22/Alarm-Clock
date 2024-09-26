@@ -71,6 +71,22 @@ npm run tunnel
 
 Then scan the QR code that appears on the expo go app.
 
+## FAQ
+
+### 1. How do I install the project dependencies?
+
+Run the following command to install all required dependencies:
+```
+npm install
+```
+
+### What should I do if I encounter an error during installation?
+
+Ensure you have the correct Node.js version installed. You can check your version with:
+```
+node -v
+```
+
 ## 🤝 Contributing
 
 To contribute to this repository, please follow the following steps:
